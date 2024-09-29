@@ -1,0 +1,33 @@
+/* Reset styles to remove unwanted effects */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Helps with padding and border calculations */
+}
+
+.body {
+    font-family: Arial, sans-serif; /* Define a base font */
+}
+
+.table {
+    border-collapse: collapse; /* Prevents double borders */
+    width: 100%; /* Makes table full width */
+}
+.table th{
+    background-color: #a5a5a5;
+}
+
+/* Your existing styles */
+.manage-customers {
+    padding: 20px;
+}
+
+.table-responsive {
+    margin-top: 20px; /* Space between title and table */
+}
+
+.custom-dropdownn {
+    width: 120px;
+    font-size: 0.875rem; /* Small font size */
+    padding: 0.05rem; /* Adjust padding to make it smaller */
+}

@@ -1,0 +1,49 @@
+/* EditCustomerProfile.css */
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-control {
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    box-shadow: none;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+  }
+  
+  .form-check {
+    margin-bottom: 1rem;
+  }
+  
+  .form-check-label {
+    margin-bottom: 0;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 0.25rem;
+  }
+  
+  .alert {
+    margin-top: 20px;
+  }
+  

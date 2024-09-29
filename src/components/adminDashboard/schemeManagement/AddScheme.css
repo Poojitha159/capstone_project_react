@@ -1,0 +1,21 @@
+.documents-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.document-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.custom-checkbox {
+    margin-right: 10px;
+}
+
+.document-label {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+}

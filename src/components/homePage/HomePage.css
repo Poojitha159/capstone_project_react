@@ -1,0 +1,194 @@
+/* Navbar Styles */ 
+.navbar-homepage { 
+    background-color: #4394b4 !important; /* Force navbar background color */ 
+    padding: 10px 20px; 
+    display: flex;  /* Flexbox for better alignment */ 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+ 
+.navbar-brand { 
+    font-size: 1.5rem; 
+    color: white; 
+    font-weight: bold; 
+    text-decoration: none; 
+} 
+ 
+.navbar-homepage ul { 
+    list-style: none; 
+    display: flex; 
+    padding: 0; 
+    margin: 0; 
+    align-items: center; 
+} 
+ 
+.navbar-homepage a { 
+    color: white; 
+    text-decoration: none; 
+    font-weight: normal; /* Normalized font weight */ 
+    margin: 0 15px; 
+    padding: 8px 12px; 
+    transition: background-color 0.3s; 
+} 
+ 
+.navbar-homepage a:hover { 
+    background-color: rgba(243, 161, 161, 0.2); 
+    border-radius: 5px; 
+} 
+ 
+.dropdown-toggle { 
+    color: white; 
+    cursor: pointer; 
+} 
+ 
+/* Dropdown Menu Styles */ 
+.dropdown-menu { 
+    display: none; 
+    position: absolute; 
+    background-color: #84b8f8; 
+    border: none; 
+    z-index: 1000; 
+} 
+ 
+.nav-item.dropdown:hover .dropdown-menu { 
+    display: block; 
+} 
+ 
+/* Login Dropdown Styles */ 
+.nav-item.dropdown .dropdown-menu { 
+    background-color: white; 
+} 
+ 
+.nav-item.dropdown .dropdown-menu .dropdown-item { 
+    color: #00050a; 
+    padding: 8px 12px; 
+} 
+ 
+.nav-item.dropdown .dropdown-menu .dropdown-item:hover { 
+    background-color: #e3ebf3; 
+    color: #0056b3; 
+} 
+ 
+/* Insurance Plans Dropdown */ 
+.nav-item.dropdown .dropdown-menu.insurance-plans-dropdown { 
+    background-color: #85b0e6; 
+} 
+ 
+.nav-item.dropdown .dropdown-menu.insurance-plans-dropdown .dropdown-item { 
+    color: white; 
+} 
+ 
+.nav-item.dropdown .dropdown-menu.insurance-plans-dropdown .dropdown-item:hover { 
+    background-color: #f1f1fc; 
+    color: #007bff; 
+} 
+ 
+/* Main Content Image */ 
+.content img.full-page-width-image { 
+    width: 100%;  /* Ensure image stretches to full page width */ 
+    height: auto; /* Maintain aspect ratio */ 
+    margin-top: 20px; 
+} 
+ 
+/* Description Section */ 
+.description { 
+    padding: 40px 20px; 
+    text-align: center; 
+} 
+ 
+.description h2 { 
+    font-size: 2rem; 
+    color: #007bff; 
+    margin-bottom: 20px; 
+} 
+ 
+.description p { 
+    font-size: 1.1rem; 
+    color: #333; 
+    line-height: 1.5; 
+    margin-bottom: 20px; 
+} 
+ 
+/* Features Section */ 
+.features-section { 
+    text-align: center;  /* Center the heading */ 
+    padding: 40px 20px; 
+} 
+ 
+.features-section h2 { 
+    font-size: 2.5rem; /* Make the heading bigger */ 
+    color: #007bff; 
+    margin-bottom: 40px; /* Add space between the heading and features */ 
+} 
+ 
+.features { 
+    display: flex; 
+    justify-content: space-around; /* Spread features horizontally */ 
+    padding: 20px 0; 
+    text-align: center; 
+} 
+ 
+.feature { 
+    width: 30%; 
+} 
+ 
+.feature i { 
+    font-size: 3rem; 
+    color: #007bff; 
+    margin-bottom: 15px; 
+} 
+ 
+.feature h3 { 
+    font-size: 1.5rem; 
+    margin-bottom: 10px; 
+} 
+ 
+.feature p { 
+    font-size: 1rem; 
+    color: #555; 
+} 
+ 
+ 
+/* Footer */ 
+.footer { 
+    background-color: #797b7e; 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+} 
+ 
+.footer ul { 
+    list-style: none; 
+    padding: 0; 
+} 
+ 
+.footer ul li { 
+    margin: 10px 0; 
+} 
+ 
+.footer .social-icons { 
+    margin-top: 20px; 
+} 
+ 
+.footer .social-icons a { 
+    color: white; 
+    margin: 0 10px; 
+    font-size: 1.5rem; 
+    transition: color 0.3s; 
+} 
+ 
+.footer .social-icons a:hover { 
+    color: #ffc107; /* Yellow hover color */ 
+} 
+.navbar-brand .text-logo { 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #faf6f6; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-decoration: none; 
+} 
+ 
+.navbar-brand .text-logo:hover { 
+    color: #f7f4f4; 
+}

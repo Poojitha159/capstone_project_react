@@ -1,0 +1,47 @@
+/* PolicyTable.css */
+.policy-table-container {
+    padding: 20px;
+  }
+  
+  .pagination-controls {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .pagination-controls select {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #007bff; /* Border color */
+    border-radius: 4px;
+  }
+  
+  .pagination-button {
+    padding: 10px 20px; /* Larger padding for better visibility */
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #007bff; /* Thicker border for prominence */
+    border-radius: 4px;
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding shadow for better visibility */
+  }
+  
+  .pagination-button:disabled {
+    cursor: not-allowed;
+    background-color: #0056b3; /* Darker blue for disabled state */
+    border-color: #0056b3;
+    box-shadow: none; /* Remove shadow for disabled state */
+  }
+  
+  .pagination-button:not(:disabled):hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #004085; /* Even darker blue for border on hover */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  

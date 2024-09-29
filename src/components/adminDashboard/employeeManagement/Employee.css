@@ -1,0 +1,27 @@
+/* Employee.css */
+
+/* Adjust styles for small form elements */
+.formm-select-sm {
+    width: auto; /* Adjust width to make it smaller */
+}
+
+.formm-control-sm {
+    width: auto; /* Adjust width to make it smaller */
+}
+
+/* Flex container for buttons */
+.button-containerr {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    gap: 0.5rem; /* Space between buttons */
+}
+
+.pagination-controlsss {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Space between pagination elements */
+}
+
+.error {
+    color: red;
+}

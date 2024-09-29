@@ -1,0 +1,20 @@
+/* .installment-card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+} */
+
+.custom-card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.custom-card .card-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.table-dark {
+    background-color: #343a40;
+    color: #fff;
+}

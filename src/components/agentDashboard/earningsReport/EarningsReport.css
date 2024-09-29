@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+    color: rgb(39, 3, 67);
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tfoot td {
+    font-weight: bold;
+    background-color: #f9f9f9;
+    padding-top: 10px;
+    border-top: 2px solid #dddddd;
+}

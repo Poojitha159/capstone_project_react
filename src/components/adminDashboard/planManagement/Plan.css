@@ -1,0 +1,39 @@
+.insurance-plan-management {
+    padding: 20px;
+}
+
+.plan-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.plan-table th, .plan-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.plan-table th {
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+.activate-btn, .deactivate-btn {
+    border: none;
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.activate-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.deactivate-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.error {
+    color: red;
+}

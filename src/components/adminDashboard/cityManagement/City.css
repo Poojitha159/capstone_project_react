@@ -1,0 +1,63 @@
+.city-management {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.city-management h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.city-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.city-table th, .city-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.city-table th {
+    background-color: #f4f4f4;
+    color: #555;
+}
+
+.city-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.city-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.city-table button {
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.activate-btn {
+    background-color: #28a745;
+}
+
+.deactivate-btn {
+    background-color: #dc3545;
+}
+
+.error {
+    color: #dc3545;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.small-select {
+    width: 50px; /* Adjust the width as needed */
+}

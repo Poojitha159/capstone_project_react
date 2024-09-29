@@ -1,0 +1,20 @@
+.card:hover { 
+  transform: scale(1.05); 
+  transition: transform 0.2s; 
+}
+
+
+/* CustomerDasdhboard.css */
+.customer-dashboard {
+  padding: 150px; /* Add padding to the container */
+  height: 2500000px; 
+}
+
+.card {
+    
+  transition: transform 0.2s; /* Add a transition effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale up card on hover */
+}

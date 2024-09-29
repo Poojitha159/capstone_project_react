@@ -1,0 +1,11 @@
+/* styles.css or any appropriate CSS file */
+.btn-neutral {
+    background-color: #d1dae4; /* Light gray */
+    color: #212529; /* Dark gray */
+    border: 1px solid #ced4da; /* Light border */
+    transition: background-color 0.3s;
+}
+
+.btn-neutral:hover {
+    background-color: #e2e6ea; /* Slightly darker gray on hover */
+}

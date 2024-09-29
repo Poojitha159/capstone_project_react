@@ -1,0 +1,42 @@
+.agent-dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #ffffff; /* Optional: Add background color */
+    padding: 20px; 
+  }
+  
+  .agent-dashboard {
+    width: 100%;
+    max-width: 1200px; /* Optional: Set a max width for the dashboard */
+    padding: 20px; /* Add padding for breathing space */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Card shadow for visual effect */
+    background-color: rgb(255, 255, 255); /* Optional: Background color for the dashboard */
+  }
+  
+  
+  
+  .dashboard-card {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-card .card-link {
+    text-decoration: none;
+  }
+  
+
+/* AgentDashboard.css */
+.agent-dashboard-container {
+  padding: 20px; /* Add padding to the container */
+}
+
+.dashboard-card {
+  text-align: center; /* Center content in the card */
+  border: none; /* Remove default border */
+}
+
+.card-icon {
+  margin-bottom: 10px; /* Space between icon and title */
+}

@@ -1,0 +1,17 @@
+.employee-dashboard .card { 
+    transition: transform 0.2s ease-in-out; 
+  } 
+   
+  .employee-dashboard .card:hover { 
+    transform: scale(1.05); 
+  } 
+   
+  .go-back-button { 
+    position: absolute; 
+    right: 20px; 
+    top: 20px; 
+  } 
+   
+  .employee-dashboard .btn-group .btn { 
+    margin-right: 10px; 
+  }

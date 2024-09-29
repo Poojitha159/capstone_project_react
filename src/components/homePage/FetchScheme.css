@@ -1,0 +1,62 @@
+/* FetchSchemes.css
+.scheme-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .scheme-card {
+    border: 5px solid #ddd;
+    border-radius: 16px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .go-back-button {
+    margin-top: 1rem;
+  } */
+  
+  /* FetchSchemes.css */
+
+/* Increase card width and improve its appearance */
+.scheme-card {
+  border: 5px solid #ddd;
+  border-radius: 16px;
+  padding: 1.5rem; /* Increase padding for better spacing */
+  background-color: #f9f9f9;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhance shadow for depth */
+  margin-bottom: 1.5rem; /* Add bottom margin for spacing between cards */
+  width: 100%; /* Ensure cards take full width of their container */
+  max-width: 900px; /* Set maximum width for the cards */
+  height: 100%; /* Ensure cards take full height */
+  overflow: hidden; /* Prevent content overflow */
+}
+
+/* Adjust image styling to fit within the card */
+.scheme-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Add border-radius to the image for rounded corners */
+  margin-bottom: 1rem;
+}
+
+/* Style for buttons and inputs inside the card */
+.card-body .btn {
+  margin-top: 1rem;
+}
+
+/* Increase the size of the interest calculator form */
+.interest-calculator {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Style for go back button */
+.go-back-button {
+  margin-top: 2rem;
+  font-size: 1.1rem; /* Slightly increase font size */
+}

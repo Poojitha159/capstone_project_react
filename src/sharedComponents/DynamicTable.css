@@ -1,0 +1,29 @@
+/* DynamicTable.css */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.deactivate-btn, .activate-btn {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.deactivate-btn {
+    background-color: red;
+}
+
+.activate-btn {
+    background-color: green;
+}

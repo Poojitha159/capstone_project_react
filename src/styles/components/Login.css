@@ -1,0 +1,17 @@
+.input.form-control-lg{
+    width: 300px;
+    height:50px;
+  }
+  
+    button.btn-lg{
+      width: 300px;
+    }
+  
+    .go-back-button {
+      position: fixed;
+      top: 20px; /* Adjust as needed */
+      right: 20px; /* Adjust as needed */
+      z-index: 1000; /* Ensure it's above other elements */
+  }
+  
+   

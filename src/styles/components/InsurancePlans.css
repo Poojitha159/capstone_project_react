@@ -1,0 +1,25 @@
+/* InsurancePlans.css */
+
+.dropdown-menu {
+    background-color: #f8f9fa; /* Light grey background for visibility */
+    border: 1px solid #dee2e6; /* Border to make the dropdown more defined */
+    max-height: 300px; /* Limit height to avoid overflowing */
+    overflow-y: auto; /* Add scrollbar if content overflows */
+}
+
+.dropdown-item {
+    color: #000; /* Black text for better readability */
+}
+
+.dropdown-item:hover {
+    background-color: #e9ecef; /* Light grey background on hover */
+    color: #212529; /* Darker text color on hover */
+}
+
+
+
+.dropdown-item {
+    color: black; /* Set text color to black */
+}
+
+
